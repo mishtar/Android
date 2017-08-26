@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/custom_spinner_dropNombreSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"  android:layout_weight="6" android:text="Sala 1"/>
+    <TextView
+        android:id="@+id/custom_spinner_dropNumeroPuestos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/custom_spinner_dropNombre" android:layout_marginLeft="4dp"
+        android:layout_toEndOf="@+id/custom_spinner_dropNombre" android:layout_weight="6" android:textAlignment="textEnd" android:text="Martinez"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/custom_spinner_Temperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignStart="@+id/custom_spinner_dropNombre"
+        android:layout_below="@+id/custom_spinner_dropNombre" android:layout_marginStart="10dp" android:text="834785634876"/>
+
+
+</LinearLayout>

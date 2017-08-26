@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LosViews</string>
+    <string name="Bienvenida">Hola Mundo</string>
+    <string-array
+        name="string_array_name">
+        <item>MovilBox</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

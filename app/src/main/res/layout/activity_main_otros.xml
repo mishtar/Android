@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/radioButton1" android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="hola"/>
+            <RadioButton android:id="@+id/radioButton2" android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" android:text="hola 2"/>
+
+        </RadioGroup>
+
+        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Seleccioname"/>
+
+        <ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HOla"
+                      android:textOff="Apagado" android:textOn="Prendido"/>
+
+        <Switch android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="El Switch" android:textOff="Switch Apagado" android:textOn="Switch Prendido"/>
+
+
+        <include
+            android:id="@+id/elinclude" layout="@layout/layout_for_include" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></include>
+
+
+    </LinearLayout>
